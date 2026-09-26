@@ -21,6 +21,7 @@ VersionInfoVersion={#MyAppVersion}.0
 ArchitecturesAllowed=x64compatible
 ArchitecturesInstallIn64BitMode=x64compatible
 PrivilegesRequired=lowest
+PrivilegesRequiredOverridesAllowed=dialog commandline
 SetupIconFile=Assets\app.ico
 
 [Languages]
