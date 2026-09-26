@@ -1,0 +1,18 @@
+#pragma once
+
+#include <QString>
+#include <QStringLiteral>
+
+// This file is generated at configure time by CMake (configure_file).
+// Single source of truth for identity/version lives in CMakeLists.txt.
+
+namespace AppInfo {
+
+inline const QString ORG_NAME = QStringLiteral("@APP_ORG@");
+inline const QString APP_NAME = QStringLiteral("@APP_NAME@");
+inline const QString APP_DISPLAY_NAME = QStringLiteral("@APP_DISPLAY_NAME@");
+inline const QString APP_VERSION = QStringLiteral("@APP_VERSION@");
+inline const QString APP_GITHUB_URL = QStringLiteral("@APP_GITHUB_URL@");
+inline const QString APP_DOCS_URL = QStringLiteral("@APP_DOCS_URL@");
+
+} // namespace AppInfo

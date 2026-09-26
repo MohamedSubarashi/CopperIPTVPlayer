@@ -1,0 +1,19 @@
+# Build output
+build/
+*.user
+
+# Qt / CMake
+CMakeLists.txt.user*
+.cache/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs / temp
+*.log
+*.tmp
+
+# Personal playlists (not part of the app)
+*.m3u
