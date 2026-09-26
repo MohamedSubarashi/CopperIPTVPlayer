@@ -17,3 +17,6 @@ CMakeLists.txt.user*
 
 # Personal playlists (not part of the app)
 *.m3u
+
+# Release packaging output
+dist/
